@@ -1,7 +1,7 @@
 ﻿internal class Program
 {
     //JORDI
-    public static void ShowOptions()
+    public static void ShowOptions()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WELCOME TO MARC AND JORDI'S QUIZ! NOW CHOOSE A TOPIC:");
@@ -55,7 +55,7 @@
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
     //JORDI
-    public static void mangaAnimeOptions1()
+    public static void mangaAnimeOptions1()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHAT IS THE MANGA/ANIME IP THAT GENERATES MORE MONEY?");
@@ -96,7 +96,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void mangaAnimeOptions2()
+    public static void mangaAnimeOptions2()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO IS NARUTO'S AUTHOR?");
@@ -137,7 +137,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void mangaAnimeOptions3()
+    public static void mangaAnimeOptions3()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO IS THE FIRS TO GET A DEATH NOTE FROM A SHINIGAMI IN DEATH NOTE?");
@@ -178,7 +178,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void mangaAnimeOptions4()
+    public static void mangaAnimeOptions4()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO TURNS INTO GHOUL IN TOKYO GHOUL?");
@@ -219,7 +219,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void mangaAnimeOptions5()
+    public static void mangaAnimeOptions5()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO IS A HUMAN IN GODDESS?");
@@ -261,7 +261,7 @@
     }
     //-----------------------------------------POKEMON-----------------------------------------------------------------------
     //JORDI
-    public static void pokemonOptions1()
+    public static void pokemonOptions1()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO IS THE FIRS LEGENDARY TO APEAR IN THE ANIME?");
@@ -302,7 +302,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void pokemonOptions2()
+    public static void pokemonOptions2()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO IS THE ANIME PROTAGONIST?");
@@ -343,7 +343,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void pokemonOptions3()
+    public static void pokemonOptions3()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO IS FROM FIRE TYPE?");
@@ -384,7 +384,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void pokemonOptions4()
+    public static void pokemonOptions4()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHAT TYPE IS STRONG IN FRONT OF WATER?");
@@ -425,7 +425,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void pokemonOptions5()
+    public static void pokemonOptions5()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO WAS THE FIRST POKEMON OF ASH?");
@@ -467,7 +467,7 @@
     }
     //-------------------------------------------------------------------------VIDEOGAMES-----------------------------------------------------------
     //JORDI
-    public static void videogamesOptions1()
+    public static void videogamesOptions1()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO IS THE FIRST FEMENINE PLAYABLE CHARACTER IN VIDEOGAMES?");
@@ -508,7 +508,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void videogamesOptions2()
+    public static void videogamesOptions2()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHAT IS THE MOST SELLED CONSOLE OF ALL TIME?");
@@ -549,7 +549,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void videogamesOptions3()
+    public static void videogamesOptions3()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHO EXTERMINED ALL THE FLOOD");
@@ -590,7 +590,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void videogamesOptions4()
+    public static void videogamesOptions4()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHAT ZELDA IS AN OPENWORLD GAME?");
@@ -631,7 +631,7 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
     //JORDI
-    public static void videogamesOptions5()
+    public static void videogamesOptions5()//OPCIONS VISUALS
     {
         Console.Clear();
         Console.WriteLine("WHAT IS THE MOST SELLED VIDEOGAME?");
