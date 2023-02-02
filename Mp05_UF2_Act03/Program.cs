@@ -60,7 +60,7 @@
         Console.Clear();
         Console.WriteLine("WHAT IS THE MANGA/ANIME IP THAT GENERATES MORE MONEY?");
         Console.WriteLine("1 - DRAGON BALL");
-        Console.WriteLine("2 - ONE PIECE");
+        Console.WriteLine("2 - ONE PIECE");//CORRECT ANSWER
         Console.WriteLine("3 - NARUTO");
         Console.WriteLine("4 - BIBLE BLACK");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -81,7 +81,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D2:
-                    mangaAnimeOptions22();
+                    mangaAnimeOptions22();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
@@ -102,7 +102,7 @@
         Console.WriteLine("WHO IS NARUTO'S AUTHOR?");
         Console.WriteLine("1 - TAKESHI OBATA");
         Console.WriteLine("2 - ONICHI CHI");
-        Console.WriteLine("3 - MASASHI KISHIMOTO");
+        Console.WriteLine("3 - MASASHI KISHIMOTO");//CORRECT ANSWER
         Console.WriteLine("4 - SATOJI TAJIRI");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
@@ -125,7 +125,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D3:
-                    mangaAnimeOptions33();
+                    mangaAnimeOptions33();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
@@ -141,7 +141,7 @@
     {
         Console.Clear();
         Console.WriteLine("WHO IS THE FIRS TO GET A DEATH NOTE FROM A SHINIGAMI IN DEATH NOTE?");
-        Console.WriteLine("1 - LIGHT YAGAMI");
+        Console.WriteLine("1 - LIGHT YAGAMI");//CORRECT ANSWER
         Console.WriteLine("2 - L");
         Console.WriteLine("3 - HIPHOP");
         Console.WriteLine("4 - MATSUDA");
@@ -160,7 +160,7 @@
             switch (tecla.Key)
             {
                 case ConsoleKey.D1:
-                    mangaAnimeOptions44();
+                    mangaAnimeOptions44();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
@@ -185,7 +185,7 @@
         Console.WriteLine("1 - LIMAX TIME");
         Console.WriteLine("2 - SHINRA KUSAKABE");
         Console.WriteLine("3 - NARUTO UZUMAKI");
-        Console.WriteLine("4 - KEN KANEKI");
+        Console.WriteLine("4 - KEN KANEKI");//CORRECT ANSWER
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
     //JORDI
@@ -210,7 +210,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D4:
-                    mangaAnimeOptions55();
+                    mangaAnimeOptions55();//CORRECT ANSWER
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -226,7 +226,7 @@
         Console.WriteLine("1 - LYNNA");
         Console.WriteLine("2 - LIMAX");
         Console.WriteLine("3 - ZEUS");
-        Console.WriteLine("4 - LUCH");
+        Console.WriteLine("4 - LUCH");//CORRECT ANSWER
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
     //JORDI
@@ -251,7 +251,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D4:
-                    Console.WriteLine("You have failed");
+                    Console.WriteLine("YOU HAVE PASSED THE TEST");//CORRECT ANSWER
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -266,7 +266,7 @@
         Console.Clear();
         Console.WriteLine("WHO IS THE FIRS LEGENDARY TO APEAR IN THE ANIME?");
         Console.WriteLine("1 - MOLTRES");
-        Console.WriteLine("2 - HO-HO");
+        Console.WriteLine("2 - HO-HO");//CORRECT ANSWER
         Console.WriteLine("3 - LUGIA");
         Console.WriteLine("4 - ARTICUNO");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -287,7 +287,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D2:
-                    pokemonOptions22();
+                    pokemonOptions22();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
@@ -308,7 +308,7 @@
         Console.WriteLine("WHO IS THE ANIME PROTAGONIST?");
         Console.WriteLine("1 - RED");
         Console.WriteLine("2 - HILDA");
-        Console.WriteLine("3 - ASH");
+        Console.WriteLine("3 - ASH");//CORRECT ANSWER
         Console.WriteLine("4 - SATOJI TAJIRI");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
@@ -331,7 +331,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D3:
-                    pokemonOptions33();
+                    pokemonOptions33();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
@@ -347,7 +347,7 @@
     {
         Console.Clear();
         Console.WriteLine("WHO IS FROM FIRE TYPE?");
-        Console.WriteLine("1 - CHARMANDER");
+        Console.WriteLine("1 - CHARMANDER");//CORRECT ANSWER
         Console.WriteLine("2 - BULBASAUR");
         Console.WriteLine("3 - SQUIRTLE");
         Console.WriteLine("4 - OSHAWOT");
@@ -360,7 +360,7 @@
         do
         {
             Console.Clear();
-            pokemonOptions3();
+            pokemonOptions3();//CORRECT ANSWER
             tecla = Console.ReadKey();
             Console.Clear();
             switch (tecla.Key)
@@ -391,7 +391,7 @@
         Console.WriteLine("1 - FIRE");
         Console.WriteLine("2 - DRAGON");
         Console.WriteLine("3 - GROUND");
-        Console.WriteLine("4 - PLANT");
+        Console.WriteLine("4 - PLANT");//CORRECT ANSWER
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
     //JORDI
@@ -416,7 +416,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D4:
-                    pokemonOptions55();
+                    pokemonOptions55();//CORRECT ANSWER
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -432,7 +432,7 @@
         Console.WriteLine("1 - CHARMANDER");
         Console.WriteLine("2 - SNIVY");
         Console.WriteLine("3 - CATERPIE");
-        Console.WriteLine("4 - PIKACHU");
+        Console.WriteLine("4 - PIKACHU");//CORRECT ANSWER
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
     //JORDI
@@ -457,7 +457,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D4:
-                    Console.WriteLine("You have failed");
+                    Console.WriteLine("YOU HAVE PASSED THE TEST");//CORRECT ANSWER
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -472,7 +472,7 @@
         Console.Clear();
         Console.WriteLine("WHO IS THE FIRST FEMENINE PLAYABLE CHARACTER IN VIDEOGAMES?");
         Console.WriteLine("1 - TIFA LOCKHART");
-        Console.WriteLine("2 - SAMUS ARAN");
+        Console.WriteLine("2 - SAMUS ARAN");//CORRECT ANSWER
         Console.WriteLine("3 - ALOY");
         Console.WriteLine("4 - PRINCESS PEACH");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -493,7 +493,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D2:
-                    videogamesOptions22();
+                    videogamesOptions22();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
@@ -514,7 +514,7 @@
         Console.WriteLine("WHAT IS THE MOST SELLED CONSOLE OF ALL TIME?");
         Console.WriteLine("1 - PLAY STATION 4");
         Console.WriteLine("2 - NINTENDO SWITCH");
-        Console.WriteLine("3 - PLAY STATION 2");
+        Console.WriteLine("3 - PLAY STATION 2");//CORRECT ANSWER
         Console.WriteLine("4 - NINTENDO DS");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
@@ -537,7 +537,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D3:
-                    videogamesOptions33();
+                    videogamesOptions33();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
@@ -553,7 +553,7 @@
     {
         Console.Clear();
         Console.WriteLine("WHO EXTERMINED ALL THE FLOOD");
-        Console.WriteLine("1 - MASTER CHIEF");
+        Console.WriteLine("1 - MASTER CHIEF");//CORRECT ANSWER
         Console.WriteLine("2 - SAMUS ARAN");
         Console.WriteLine("3 - KRATOS");
         Console.WriteLine("4 - MARIO");
@@ -572,7 +572,7 @@
             switch (tecla.Key)
             {
                 case ConsoleKey.D1:
-                    videogamesOptions44();
+                    videogamesOptions44();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
@@ -597,7 +597,7 @@
         Console.WriteLine("1 - TWILIGHT PRINCESS");
         Console.WriteLine("2 - WIND WAKER");
         Console.WriteLine("3 - PHANTOM HOURGLASS");
-        Console.WriteLine("4 - BREATH OF THE WILD");
+        Console.WriteLine("4 - BREATH OF THE WILD");//CORRECT ANSWER
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
     //JORDI
@@ -622,7 +622,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D4:
-                    videogamesOptions55();
+                    videogamesOptions55();//CORRECT ANSWER
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -638,7 +638,7 @@
         Console.WriteLine("1 - TETRIS");
         Console.WriteLine("2 - PAC-MAN");
         Console.WriteLine("3 - GTA V");
-        Console.WriteLine("4 - MINECRAFT");
+        Console.WriteLine("4 - MINECRAFT");//CORRECT ANSWER
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
     //JORDI
@@ -663,7 +663,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D4:
-                    Console.WriteLine("You have failed");
+                    Console.WriteLine("YOU HAVE PASSED THE TEST");//CORRECT ANSWER
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
