@@ -14,7 +14,7 @@
         Console.WriteLine("0 - EXIT");
     }
     //JORDI
-    static void Main(string[] args) //OPCIONS DE TECLA
+    public static void Main() //OPCIONS DE TECLA
     {
         ConsoleKeyInfo tecla;
         do
@@ -79,15 +79,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     mangaAnimeOptions22();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -120,15 +126,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     mangaAnimeOptions33();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -164,12 +176,18 @@
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -202,12 +220,18 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     mangaAnimeOptions55();//CORRECT ANSWER
@@ -243,15 +267,23 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("YOU HAVE PASSED THE TEST");//CORRECT ANSWER
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -285,15 +317,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     pokemonOptions22();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -326,15 +364,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     pokemonOptions33();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -370,12 +414,18 @@
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -408,12 +458,18 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     pokemonOptions55();//CORRECT ANSWER
@@ -449,15 +505,23 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("YOU HAVE PASSED THE TEST");//CORRECT ANSWER
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -491,15 +555,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     videogamesOptions22();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -532,15 +602,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     videogamesOptions33();//CORRECT ANSWER
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -576,12 +652,18 @@
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -614,12 +696,18 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     videogamesOptions55();//CORRECT ANSWER
@@ -655,15 +743,23 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("YOU HAVE PASSED THE TEST");//CORRECT ANSWER
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -672,3 +768,8 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
 }
+
+
+
+
+
