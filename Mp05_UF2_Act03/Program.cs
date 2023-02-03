@@ -12,6 +12,7 @@
         Console.WriteLine("5 - HALO");
         Console.WriteLine("6 - HOLLOW KNIGHT");
         Console.WriteLine("0 - EXIT");
+        Console.WriteLine("---YOU HAVE TO PRESS TWO TIMES THE KEY TO ANSWER---");
     }
     //JORDI
     public static void Main() //OPCIONS DE TECLA
