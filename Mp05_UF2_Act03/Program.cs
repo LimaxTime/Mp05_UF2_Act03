@@ -26,10 +26,10 @@
                 case ConsoleKey.D4:
                     DOOM1();
                     break;
-                case ConsoleKey.D4:
+                case ConsoleKey.D5:
                     HaloOptions1();
                     break;
-                case ConsoleKey.D4:
+                case ConsoleKey.D6:
                     HoloOptions1();
                     break;
                 default:
