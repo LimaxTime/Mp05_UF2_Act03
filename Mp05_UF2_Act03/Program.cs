@@ -9,7 +9,7 @@
         Console.WriteLine("3 - INVOICES");
         Console.WriteLine("4 - DOOM");
         Console.WriteLine("5 - HALO");
-        Console.WriteLine("6 - INVOICES");
+        Console.WriteLine("6 - HOLLOW KNIGHT");
         Console.WriteLine("0 - EXIT");
     }
     static void Main(string[] args)
@@ -26,6 +26,12 @@
                 case ConsoleKey.D4:
                     DOOM1();
                     break;
+                case ConsoleKey.D4:
+                    HaloOptions1();
+                    break;
+                case ConsoleKey.D4:
+                    HoloOptions1();
+                    break;
                 default:
                     MsgNextScreen("Error. Prem una tecla per tornar al menú...");
                     break;
@@ -38,18 +44,19 @@
         Console.ReadKey();
     }
 
-    public static void DOOM1()//OPCIONS VISUALS
+    // DOOM
+    public static void DOOM1()
     {
         Console.Clear();
         Console.WriteLine("WHEN WAS THE FIRST DOOM LAUNCHED TO MARKET?");
         Console.WriteLine("1 - 1995");
         Console.WriteLine("2 - 1998");
-        Console.WriteLine("3 - 1993");//CORRECT ANSWER
+        Console.WriteLine("3 - 1993");
         Console.WriteLine("4 - 2002");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
 
-    public static void DOOM11()//OPCIONS DE TECLA
+    public static void DOOM11()
     {
         ConsoleKeyInfo tecla;
         do
@@ -67,7 +74,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D3:
-                    DOOM22();//CORRECT ANSWER
+                    DOOM22();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
@@ -79,18 +86,18 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
 
-    public static void DOOM2()//OPCIONS VISUALS
+    public static void DOOM2()
     {
         Console.Clear();
         Console.WriteLine("HOW MANY EPISODES DOES DOOM 2 HAVE?");
         Console.WriteLine("1 - 1");
-        Console.WriteLine("2 - 2");//CORRECT ANSWER
+        Console.WriteLine("2 - 2");
         Console.WriteLine("3 - 3");
         Console.WriteLine("4 - 4");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
 
-    public static void DOOM22()//OPCIONS DE TECLA
+    public static void DOOM22()
     {
         ConsoleKeyInfo tecla;
         do
@@ -105,7 +112,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D2:
-                    DOOM33();//CORRECT ANSWER
+                    DOOM33();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
@@ -120,18 +127,18 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
 
-    public static void DOOM3()//OPCIONS VISUALS
+    public static void DOOM3()
     {
         Console.Clear();
         Console.WriteLine("WHICH IS THE MOST POWERFULL WEAPON ON DOOM?");
-        Console.WriteLine("1 - BFG");//CORRECT ANSWER
+        Console.WriteLine("1 - BFG");
         Console.WriteLine("2 - ROCKER LAUNCHER");
         Console.WriteLine("3 - PISTOL");
         Console.WriteLine("4 - CHAINSAW");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
 
-    public static void DOOM33()//OPCIONS DE TECLA
+    public static void DOOM33()
     {
         ConsoleKeyInfo tecla;
         do
@@ -143,7 +150,7 @@
             switch (tecla.Key)
             {
                 case ConsoleKey.D1:
-                    DOOM44();//CORRECT ANSWER
+                    DOOM44();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
@@ -161,18 +168,18 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
 
-    public static void DOOM4()//OPCIONS VISUALS
+    public static void DOOM4()
     {
         Console.Clear();
         Console.WriteLine("WHAT DO YOU FIGHT AGAINST IN DOOM?");
         Console.WriteLine("1 - MARCIAL");
         Console.WriteLine("2 - ZOMBIES");
         Console.WriteLine("3 - JEWS");
-        Console.WriteLine("4 - DEMONS");//CORRECT ANSWER
+        Console.WriteLine("4 - DEMONS");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
 
-    public static void DOOM44()//OPCIONS DE TECLA
+    public static void DOOM44()
     {
         ConsoleKeyInfo tecla;
         do
@@ -193,7 +200,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D4:
-                    DOOM55();//CORRECT ANSWER
+                    DOOM55();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -202,18 +209,18 @@
         } while (tecla.Key != ConsoleKey.D0);
     }
 
-    public static void DOOM5()//OPCIONS VISUALS
+    public static void DOOM5()
     {
         Console.Clear();
         Console.WriteLine("WHAT IS THE DEAD PET OF OUR PROTAGONIST?");
         Console.WriteLine("1 - A CAT");
         Console.WriteLine("2 - A DOG");
-        Console.WriteLine("3 - A RABBIT");//CORRECT ANSWER
+        Console.WriteLine("3 - A RABBIT");
         Console.WriteLine("4 - A DUCK");
         MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
     }
 
-    public static void DOOM55()//OPCIONS DE TECLA
+    public static void DOOM55()
     {
         ConsoleKeyInfo tecla;
         do
@@ -309,7 +316,7 @@
             switch (tecla.Key)
             {
                 case ConsoleKey.D1:
-                    Console.WriteLine("You have failed");
+                    HaloOptions33();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
@@ -318,7 +325,7 @@
                     Console.WriteLine("You have failed");
                     break;
                 case ConsoleKey.D4:
-                    HaloOptions33();
+                    Console.WriteLine("You have failed");
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -427,6 +434,214 @@
         {
             Console.Clear();
             HaloOptions5();
+            tecla = Console.ReadKey();
+            Console.Clear();
+            switch (tecla.Key)
+            {
+                case ConsoleKey.D1:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D2:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D3:
+                    Console.WriteLine("YOU HAVE PASSED THE TEST");
+                    break;
+                case ConsoleKey.D4:
+                    Console.WriteLine("You have failed");
+                    break;
+                default:
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    break;
+            }
+        } while (tecla.Key != ConsoleKey.D0);
+    }
+
+
+    // HOLLOW KNIGHT
+    public static void HoloOptions1()
+    {
+        Console.Clear();
+        Console.WriteLine("WHAT'S THE NAME OF THE MAIN PROTAGONIST?");
+        Console.WriteLine("1 - THE KNIGHT");
+        Console.WriteLine("2 - HOLLOW KNIGHT");
+        Console.WriteLine("3 - ZOTE THE MIGHT");
+        Console.WriteLine("4 - EDIIIIIIIILEEEE!");
+        MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+    }
+
+    public static void HoloOptions11()
+    {
+        ConsoleKeyInfo tecla;
+        do
+        {
+            Console.Clear();
+            HoloOptions1();
+            tecla = Console.ReadKey();
+            Console.Clear();
+            switch (tecla.Key)
+            {
+                case ConsoleKey.D1:
+                    HoloOptions22();
+                    break;
+                case ConsoleKey.D2:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D3:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D4:
+                    Console.WriteLine("You have failed");
+                    break;
+                default:
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    break;
+            }
+        } while (tecla.Key != ConsoleKey.D0);
+    }
+
+
+    public static void HoloOptions2()
+    {
+        Console.Clear();
+        Console.WriteLine("WHAT IS THE FIRST BOSS YOU FIGHT IN THE GAME?");
+        Console.WriteLine("1 - MANTIS");
+        Console.WriteLine("2 - NIGHTMARE GRIMM");
+        Console.WriteLine("3 - BROKEN VESSEL");
+        Console.WriteLine("4 - FALSE KNIGHT");
+        MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+    }
+
+    public static void HoloOptions22()
+    {
+        ConsoleKeyInfo tecla;
+        do
+        {
+            Console.Clear();
+            HoloOptions2();
+            tecla = Console.ReadKey();
+            Console.Clear();
+            switch (tecla.Key)
+            {
+                case ConsoleKey.D1:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D2:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D3:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D4:
+                    HoloOptions33();
+                    break;
+                default:
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    break;
+            }
+        } while (tecla.Key != ConsoleKey.D0);
+    }
+
+    public static void HoloOptions3()
+    {
+        Console.Clear();
+        Console.WriteLine("WHAT IS THE NAME OF THE MONEY IN THE WORLD OF HK?");
+        Console.WriteLine("1 - GRAZIA");
+        Console.WriteLine("2 - GEO");
+        Console.WriteLine("3 - FRISK");
+        Console.WriteLine("4 - MONEY, IT'S NAME IS MONEY");
+        MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+    }
+
+    public static void HoloOptions33()
+    {
+        ConsoleKeyInfo tecla;
+        do
+        {
+            Console.Clear();
+            HoloOptions3();
+            tecla = Console.ReadKey();
+            Console.Clear();
+            switch (tecla.Key)
+            {
+                case ConsoleKey.D1:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D2:
+                    HoloOptions44();
+                    break;
+                case ConsoleKey.D3:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D4:
+                    Console.WriteLine("You have failed");
+                    break;
+                default:
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    break;
+            }
+        } while (tecla.Key != ConsoleKey.D0);
+    }
+
+    public static void HoloOptions4()
+    {
+        Console.Clear();
+        Console.WriteLine("WHAT CAN YOU FIND IN THE ABYSS?");
+        Console.WriteLine("1 - JUST A GUY THAT GIVES YOU A MAP");
+        Console.WriteLine("2 - MAMBA GODS");
+        Console.WriteLine("3 - SHADOWS AND DEAD CHILDREN");
+        Console.WriteLine("4 - A GNOME");
+        MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+    }
+
+    public static void HoloOptions44()
+    {
+        ConsoleKeyInfo tecla;
+        do
+        {
+            Console.Clear();
+            HoloOptions4();
+            tecla = Console.ReadKey();
+            Console.Clear();
+            switch (tecla.Key)
+            {
+                case ConsoleKey.D1:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D2:
+                    Console.WriteLine("You have failed");
+                    break;
+                case ConsoleKey.D3:
+                    HoloOptions55();
+                    break;
+                case ConsoleKey.D4:
+                    Console.WriteLine("You have failed");
+                    break;
+                default:
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    break;
+            }
+        } while (tecla.Key != ConsoleKey.D0);
+    }
+
+    public static void HoloOptions5()
+    {
+        Console.Clear();
+        Console.WriteLine("WHO IS THE TRUE VILLAN OF THIS STORY?");
+        Console.WriteLine("1 - HOLLOW KNIGHT");
+        Console.WriteLine("2 - ZOTE");
+        Console.WriteLine("3 - THE RADIANCE");
+        Console.WriteLine("4 - SLY");
+        MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+    }
+
+    public static void HoloOptions55()
+    {
+        ConsoleKeyInfo tecla;
+        do
+        {
+            Console.Clear();
+            HoloOptions5();
             tecla = Console.ReadKey();
             Console.Clear();
             switch (tecla.Key)
