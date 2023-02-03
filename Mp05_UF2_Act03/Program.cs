@@ -12,7 +12,7 @@
         Console.WriteLine("6 - HOLLOW KNIGHT");
         Console.WriteLine("0 - EXIT");
     }
-    static void Main(string[] args)
+    public static void Main()
     {
         ConsoleKeyInfo tecla;
         do
@@ -69,15 +69,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     DOOM22();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -110,15 +116,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     DOOM33();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -154,12 +166,18 @@
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -192,12 +210,18 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     DOOM55();
@@ -233,15 +257,23 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("YOU HAVE PASSED THE TEST");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -278,12 +310,18 @@
                 break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
-                break;
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
+                    break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -320,12 +358,18 @@
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -361,12 +405,18 @@
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -399,12 +449,18 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     HaloOptions55();
@@ -440,15 +496,23 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("YOU HAVE PASSED THE TEST");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -486,12 +550,18 @@
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -525,12 +595,18 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     HoloOptions33();
@@ -566,15 +642,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     HoloOptions44();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -607,15 +689,21 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     HoloOptions55();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
@@ -648,15 +736,23 @@
             {
                 case ConsoleKey.D1:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D2:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D3:
                     Console.WriteLine("YOU HAVE PASSED THE TEST");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 case ConsoleKey.D4:
                     Console.WriteLine("You have failed");
+                    MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
+                    Main();
                     break;
                 default:
                     MsgNextScreen("PRESS A KEY TO RETURN TO THE MAIN MENU");
