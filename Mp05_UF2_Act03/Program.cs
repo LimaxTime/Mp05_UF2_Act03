@@ -24,13 +24,13 @@
             switch (tecla.Key)
             {
                 case ConsoleKey.D4:
-                    DOOM1();
+                    DOOM11();
                     break;
                 case ConsoleKey.D5:
-                    HaloOptions1();
+                    HaloOptions11();
                     break;
                 case ConsoleKey.D6:
-                    HoloOptions1();
+                    HoloOptions11();
                     break;
                 default:
                     MsgNextScreen("Error. Prem una tecla per tornar al menú...");
